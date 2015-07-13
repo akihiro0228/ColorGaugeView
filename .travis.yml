@@ -11,5 +11,5 @@ language: objective-c
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/ColorGaugeView.xcworkspace -scheme ColorGaugeView-Example -destination "name=iPhone 6,OS=8.4" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild test -workspace Example/ColorGaugeView.xcworkspace -scheme ColorGaugeView_Tests -destination "name=iPhone 6,OS=8.4" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
