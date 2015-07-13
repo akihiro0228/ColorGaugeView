@@ -1,6 +1,5 @@
 language: objective-c
 before_script:
-        - brew update && brew upgrade xctool
-xcode_project: Example/ColorGaugeView.xcodeproj
-xcode_scheme: ColorGaugeView_Tests
+    - brew update && brew upgrade xctool
+xcode_scheme: ColorGaugeView-Example
 xcode_sdk: iphonesimulator
