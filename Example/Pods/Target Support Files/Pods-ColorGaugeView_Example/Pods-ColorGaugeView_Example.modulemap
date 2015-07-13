@@ -1,0 +1,6 @@
+framework module Pods_ColorGaugeView_Example {
+  umbrella header "Pods-ColorGaugeView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

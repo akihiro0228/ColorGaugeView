@@ -1,0 +1,21 @@
+PODS:
+  - ColorGaugeView (0.1.0)
+  - FBSnapshotTestCase (2.0.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.2)
+  - FBSnapshotTestCase/Core (2.0.2)
+  - FBSnapshotTestCase/SwiftSupport (2.0.2):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ColorGaugeView (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ColorGaugeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColorGaugeView: 2655ee0be55623939e2b95877a5f3cb3a5183971
+  FBSnapshotTestCase: fd500d5b282c4ec60215d26d0b58b0cf271dd0d6
+
+COCOAPODS: 0.37.1
