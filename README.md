@@ -1,5 +1,6 @@
 # ColorGaugeView
 
+[![Build Status](https://travis-ci.org/akihiro0228/ColorGaugeView.svg?branch=travis)](https://travis-ci.org/akihiro0228/ColorGaugeView)
 [![CI Status](http://img.shields.io/travis/akihiro_0228/ColorGaugeView.svg?style=flat)](https://travis-ci.org/akihiro_0228/ColorGaugeView)
 [![Version](https://img.shields.io/cocoapods/v/ColorGaugeView.svg?style=flat)](http://cocoapods.org/pods/ColorGaugeView)
 [![License](https://img.shields.io/cocoapods/l/ColorGaugeView.svg?style=flat)](http://cocoapods.org/pods/ColorGaugeView)
