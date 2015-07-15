@@ -12,7 +12,7 @@ pod 'ColorGaugeView', :git => 'https://github.com/akihiro0228/ColorGaugeView.git
 
 ## Demo
 
-![Demo](http://www.gfycat.com/AppropriateNaturalHackee)
+![Demo](http://zippy.gfycat.com/DarlingGiganticLadybug.gif)
 
 ## Author
 
