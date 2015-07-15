@@ -146,12 +146,12 @@ public class ColorGaugeView : UIView {
         self.gaugeBarView.frame = CGRectMake(self.restBarView.frame.size.width, 0, self.frame.size.width - self.restBarView.frame.size.width, self.frame.size.height)
     }
 
-    private func layoutBottomToTop(progress: CGFloat) {
+    private func layoutTopToBottom(progress: CGFloat) {
         self.gaugeBarView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height * progress)
         self.restBarView.frame = CGRectMake(0, self.gaugeBarView.frame.size.height, self.frame.size.width, self.frame.size.height - self.gaugeBarView.frame.size.height)
     }
 
-    private func layoutTopToBottom(progress: CGFloat) {
+    private func layoutBottomToTop(progress: CGFloat) {
         self.restBarView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height * (1 - progress))
         self.gaugeBarView.frame = CGRectMake(0, self.restBarView.frame.size.height, self.frame.size.width, self.frame.size.height - self.restBarView.frame.size.height)
     }
